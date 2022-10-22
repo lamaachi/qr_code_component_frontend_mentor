@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <!-- fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+    }
+    img{
+      width: 100%;
+    }
+    .card{
+      margin: 150px auto;
+      width: 220px;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      padding: 10px;
+    }
+    .p-one{
+      font-weight: 700;
+    }
+    .p-two{
+      font-weight: 400;
+      color: hsl(212, 45%, 89%);
+    }
+    .rounded{
+      border-radius:10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card rounded">
+    <img src="./images/image-qr-code.png" alt="qr code image" class="rounded">
+    <p class="p-one">Improve your front-end skills by building projects</p>
+    <p class="p-two">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</body>
+</html>
